@@ -1,0 +1,244 @@
+0.9.87 BETA ALTERNATIVE
+	+ Added badge for the 2013 Halloween forum event.
+	* Changed SRC and relocated the files from the wonky hosting hosting of Binero.
+	* Changed @include to @match for the Chrome users in the installer, it will only have permissions to run on SteamGifts.
+	* Now dubbed as and using @name SteamGifts Plus Alternative.
+
+0.9.86-BETA
+	* Fixed the '# New' comment notification not appearing for additonal pages loaded with endless scrolling.
+	* Fixed the hover image icon not being appended to image links.
+	* Fixed not being able to click on giveaway logos to open them when quick view was disabled.
+	* Fixed compatiblity with the 'steamgifts.com thank filter' userscript by BarefootMonkey. http://www.steamgifts.com/forum/wRQvh/thank-filter-userscript
+	* Minor performance increases.
+	
+0.9.85-BETA
+	* Fixed comment forms being highlighted as a new comment.
+	* Fixed endless scrolling on polls. (Released earlier in a hotfix) 
+	* Fixed new items per page limits. (Released earlier in a hotfix) 
+	* Slightly optimized endless scrolling page loads. They should no longer entirely hang the browser.
+	* Background colour for child comment blocks alternate between dark and light.
+
+0.9.84-BETA
+	* Redesigned the float down menu to closer replicate SteamGift's header menu.
+	* Fixed not being able to interact with content underneath the float down menu's shadow.
+	* Fixed not being able to change the entry limit value.
+	* Fixed addon style issues in quickview pages.
+	* Fixed giveaway win chance being incorrectly calculated if you were the creator.
+
+0.9.83-BETA
+	* SGP checkboxes now use SteamGift's checkbox style.
+	* Fixed a rare bug that caused new comments to not highlight correctly.
+	* Fixed the grid view infocard sliding down too far when quick view was disabled.
+	* Fixed an issue with endless scrolling loading the last page of a thread repeatedly when Newest Comment First was disabled.
+
+0.9.82-BETA
+	+ Added the Add to Filter button for giveaways in grid view in the giveaways infocard.
+	* Fixed entering giveaways from the quick view not fading the giveaway listing on the homepage.
+	* Fixed the OP having multiple user menu dropdowns.
+	* Optimized loading the config.
+	* Grid view is disabled on giveaway /search/ pages.
+	* Fixed the grid view slide down infocard appearing when not using grid view.
+	
+0.9.81-BETA
+	* Fixed grid view and dropdown menu display issues in Chrome.
+	* Fixed Quick View popup loading the giveaway homepage rather than the giveaway.
+	
+0.9.8-BETA
+	+ Added a giveaway search input on the homepage that searches through filtered giveaways.
+	+ You can now report a user's comment in the drop down menu.
+	+ Quick View buttons now have link context menus (IE: Right click on quick view > open link in new tab.)
+	+ Added Grid View.
+	+ Top secret stuff for Staff.
+	* Wishlist giveaways are now purple instead of green and will say Wishlight: next to the game's name.
+	* DLC database names are now made safe when added/updated. Fixes numerous DLC that weren't being filtered due to name discrepancies.
+	* Fixed library filters not filtering giveaway that had a truncated name.
+	* Fixed the new comment counter being off if you opened a previously untracked topic page that had new comments on it.
+	* Fixed the new comment counter breaking if null.
+	* Fixed comments on a new previously unvisited page in a topic you had visited previously not being marked as new.
+	* User reports are now submitted to support. (Unless submitted from the /report/new page.)
+	* Fixed the "Comment by ignored user" message not being removed when the user was unignored in a topic.
+	* Fixed an issue preventing filters, usertags and ignored users to not be deleted from in the control panel.
+
+0.9.7-BETA
+	+ You now have to manually resume loading the next page by pressing the resume button if the page loading was paused.
+	* Fixed some minor spelling mistakes.
+	* Fixed library filters occasionally deleting themselves when the /sync page returned without the games list.
+	* Fixed the win chance being incorrect for giveaways with over 1,000 copies. (Credit: Tokamak86)
+
+0.9.6-BETA
+	+ Added filtering for DLC for games you don't own.
+	* Fixed library filters not updating when on the sync page.
+
+0.9.5-BETA
+	+ Added an option for disabling the Quick View in the Giveaway Preferences.
+	+ Added a Per Copy option for the Entry Limit filter.
+	+ Added a Minimum Win Chance filter.
+	* Fixed BCE formating appending http:// to https:// links.
+	* Fixed the float down menu overlaying jumped to anchor links without a page reload.
+	* Library filtering will now periodically sync with your SteamGifts games library and act the same as the SteamGifts filter. Except you can disable filters for library games you still want to see.
+	* The remove (x) button on usertags, filters, ignored users is now always shown. This fixes a bug where if the tag was moved onto a new line when you went to remove it it couldn't be removed.
+
+0.9.4-BETA
+	+ Giveaway ended notifications are now blue instead of green to be less confusing with win notifications.
+	+ Added ability to Import/Export your SGP filters from the control panel.
+	+ Added a Import SGE Filter option in the control panel.
+	* Decreased the height of popups and the quickview.
+	* Fixed new lines not always being parsed.
+	* Fixed jumping to posts while the float down menu was hidden being covered by the menu.
+	* Minor optimizations to repeatedly loading/getting config values that have been loaded previously on the page.
+	* Optimizations to the forums. Forums should now load a lot faster, especially in Firefox.
+	* Fixed the spacing slider being missing from some pages.
+	- Removed endless scrolling from search pages.
+
+0.9.3-BETA
+	+ Added a Back to Top button in the Float Down Menu.
+	* Fixed an issue with the maximum page number on a topic, forum, homepage etc being wrong which broke numerous other things.
+	* Fixed some issues with detecting wether the page was the forum index or a topic.
+	* Fixed an issue that caused 'Page 0' or less to load when you were on the first page of a thread and both endless scrolling and newest comment first where enabled.
+	* Fixed the same page being loaded multiple times if the Page Loading message was still in sight.
+	
+0.9.2-BETA
+	+ Added a View all Badges button in User Preferences to view all the badges.
+	* Changed the auto-updater. The addon will now always be up to date without requiring any action on part of the user. When the addon is updated you'll be notified with a popup.
+	* Fixed BCE checkboxes missing from some of the comment editors.
+	* Fixed BCE Heading 6 missing from the heading format dropdown menu.
+	* Fixed the regex for finding how many copies a giveaway has that was breaking the win chance and filters on some specific games.
+	* Fixed case sensitive issues on the regex for giveaway filters.
+	* Fixed the Game Filters popup scrollbar overflowing the popup box.
+	* Fixed win chance on View Created making lines overflow.
+	* Fixed marking a topic as read not correctly reseting the # New button on the forum index.
+	* Fixed endless scrolling not working when its not possible to scroll.
+	
+0.9.1-BETA
+	+ Giveaway win chance is displayed on your entries, won and created pages.
+	+ Added an option under endless scrolling to toggle the display of 'Page x of x' messages for seamless scrolling.
+	+ New from the Forums, Latest Received Gifts and Top Contributors now use the forum's spacing preference.
+	+ Filter controls on the homepage have been moved into a drop down menu.
+	+ Scrolling down past the Page Loading message will pause adding on the newly loaded page until the Page Loading message is in sight again.
+	+ Added a giveaway filter for minimum amount of copies.
+	* Fixed giveaway win chance being incorrect for multiple copy giveaways.
+	* Fixed giveaway win chance being incorrect if you weren't entered.
+	* Fixed giveaway win chance being incorrect for coming soon giveaways.
+	* Fixed quotes in filter names breaking the filter.
+	* Fixed the float down menu overlaying the quick view.
+	* Fixed an issue where a linked to comment would be moved out of sight when the addon's display order loaded in.
+	* Fixed linked to comments and new comment's when navigated to being hidden under the float down menu.
+	* Fixed Better Comment Editor not working when editing a comment from a endless scrolling loaded in page.
+	* Fixed Live Preview not disappearing when you cancel editing a comment.
+	* Fixed toggling Better Comment Editor not correctly toggling it's child options.
+	* Fixed Red Group giveaways being shown when Show Red was disabled.
+	* Fixed Replace Featued Giveaway with New from the Forums setting not being disabled by default.
+	* Slightly optimized topic loading.
+	
+0.9.0-BETA
+	* Beta release!
+	+ Topics and giveaways by ignored users are now hidden.
+
+0.8.3-ALPHA
+	+ Added Better Comment Editor format buttons.
+	* Fixed the Reply button being infront of the ignored comment message on child comments.
+
+0.8.2-ALPHA
+	+ Added a 'Add to Filter' button on the homepage for each giveaway.
+	* Fixed endless scrolling on the forums not working.
+	* Fixed spacing on new pages loaded by endless scrolling.
+	* Decreased the size of the contributor value slider on the homepage.
+	* Fixed the contributor value textboxes cutting off text in some browsers.
+	* Increased endless scrolling page load speed.
+	* Changed Red and Green filters to Show Green and Show Red.
+	* Fixed filters removing all of the developer/featured/greenlight giveaways.
+	* Minor code optimizations.
+	- Removed gold star user award.
+
+0.8.1-ALPHA
+	+ /forum/replies now supports usertags, ignoring and hover images.
+	* Fixed /forum/replies topic links not being correctly formatted with /page/31337 when they should be.
+	* Fixed the spacing slider disappearing when endless scrolling is toggled.
+	* Fixed the spacing slider missing its name.
+	* Fixed the spacing slider missing from some pages.
+	* Fixed pagination controls not correctly toggling on the homepage when endless scrolling was toggled.
+	* Fixed Better Comment Editor not appearing when editing topics and tickets.
+	* Changed Parse New Lines to only parse new lines in the preview box and when the form is submitted to fix multiple bugs and 'lag' issues.
+
+0.8.0-ALPHA
+	+ Support topics are now supported with usertags, comment #IDs, etc.
+	+ Giveaway descriptions, new topics and support tickets can now be previewed.
+	+ Added Better Comment Editor new line parsing.
+	+ Added a Comment and Enter button to the quickview.
+	+ New from the Forums, Latest Received Gifts and Top Contributor sections on the homepage are now supported.
+	+ The large featured giveaway can be replace by New From the Forum if hidden.
+	+ Added row spacing for the forum and giveaway indexes.
+	+ Giveaway search page now has endless scrolling.
+	* Fixed 'News from the Forums' links not being formated for newest first display order.
+	* Fixed Staff tags and certain badges not appearing on user profiles for some people in some browsers.
+	* Fixed the float down menu being enabled when it shouldn't be.
+	* Fixed an issue that caused the addon to break when endless scrolling couldn't be fully initialized.	
+	* Fixed quickview reloading itself when buttons were clicked.	
+	* Fixed previewing comments while editing them.
+	* Fixed an issue with the giveaway win chance incorrectly reporting as 0%.
+	* Fixed Featured/Developer/Greenlight giveaways not being filtered correctly.
+	* Fixed /forum/replies incorrectly having endless scrolling.
+	* Fixed endless scrolling and usertagging/etc on /forum/search.
+	* Fixed hover image icon being append twice to image links in giveaway descriptions.
+	* Fixed giveaways being filtered on the search page.
+	* Fixed hover images flickering if the image covers the link by keeping the image below the mouse.
+	- Removed manually previewing comments. Now there is only live preview. Toggling it will hide or show the preview box.
+
+0.7.1-ALPHA
+	+ Exact values for the contributor value range can now be entered.
+	+ Added a filter for Contributor (Red).
+	* Fixed the entry limit filter not saving.
+	* Fixed the contributor value range to work with cents.
+
+0.7.0-ALPHA
+	+ Added giveaway quickview.
+	+ Added float down menu.
+
+0.6.1-ALPHA
+	* Fixed case sensitive issues with user awards.
+	+ Awards and wishlist can now be forced to update from Advanced Options.
+
+0.6.0-ALPHA
+	+ Added marking for topics you've previously replied to.
+	+ Added a 'busy working' icon for functions that take some time to complete.
+	+ Added library filtering.
+	+ Added custom filtering.
+	+ Closed Sticky forum topics are no longer faded and all sticky topics are seperated from normal topics to stand out more.
+	* Changed Show Contributor (Green) Only to Contributor (Green). It now can work in conjunction with Show Group.
+
+0.5.0-ALPHA
+	+ Added hiding the featured giveaway from the homepage.
+	+ Added win chance percentage.
+	+ Added wishlist highlighting.
+	+ Added initial giveaway filtering. (No game filtering yet)
+	* Changed Limit by Contribtor to Show Contributor (Green) Only.
+	* Fixed toggling Endless Scrolling on the giveaway index to hide/show the navigation bar.
+	* Fixed being able to ignore yourself.
+	* Fixed being able to ignore SteamGifts staff.
+	* Fixed the addon being ran again inside iframes.
+	* Fixed the homepage trying to load new pages past the actual number of pages it has.
+	- Removed Display Images setting. Hover Images is the better option for viewing images and inserting inline images is ugly.
+
+0.4.2-ALPHA
+	* Fixed the comment reply box not moving back to the correct location for the topic's display order when canceled or when the display order is changed.
+	* Fixed comments being inserted into the Live Preview box when a topics display order is changed.
+	
+0.4.1-ALPHA
+	* Comment reply box has been moved to the top of the comments when display order is newest first.
+
+0.4.0-ALPHA
+	* External libraries moved inside steamgifts-plus.js to reduce long load times.
+	* Fixed comment buttons being added multiple times to all previous comments each time a new endless scrolling page is loaded.
+	* Fixed comment #IDs being added to comment forms.
+	* Fixed comment forms being highlighted.
+	* Fixed empty page names breaking comment links.
+	* Fixed usertags and ignored users being lost if they were saved from multiple pages at the same time.
+	* Fixed Ignore/Unignore buttons on user profiles not updating when pressed.
+	* Fixed child comment links and buttons being indented after the Reply button.
+	* Fixed hover image icons having a white background.
+	* Fixed buttons on new endless scrolling pages not working.
+	* Fixed hover images being stuck on the right side of the screen.
+	+ Added Better Comment Editor previewing for topic comments.
+
+0.3.0-ALPHA
+	+ Private Alpha release.
