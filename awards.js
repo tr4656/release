@@ -1914,5 +1914,14 @@ postMessage({awards:{
 	},
 	"luller":{
 		"halloween2013":true
+	},
+	"geveeso":{
+		"TriviaKnight":true
+	},
+	"norby89":{
+		"TriviaKnight":true
+	},
+	"korrd":{
+		"TriviaKnight":true
 	}
 }},'*')
