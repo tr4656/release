@@ -2306,7 +2306,7 @@ postMessage({dlc:{
 		"Magic 2012 Full Deck \u201cTrinity of Elements\u201d "
 	],
 	"Guardians of Middle-earth": [
-		"Guardians of Middle-earth: The Company of Dwarves Bundle",
+		"Guardians of Middle-earth: The Company of Dwarves...",
 		"Guardians of Middle-earth: Smaug's Treasure",
 		"Guardians of Middle-earth: The Warrior Bundle"
 	],
