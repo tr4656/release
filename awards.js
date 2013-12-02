@@ -80,7 +80,7 @@ postMessage({awards:{
   "tr4656":{
     "groupchat":true,
     "TriviaKnight":true,
-    "Christmas2013":true,
+    "Christmas2013":true
   },
   "kelfryn":{
     "groupchat":true
