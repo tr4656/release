@@ -2293,7 +2293,7 @@
 		
 			var scriptAwards = document.createElement('script');
 			scriptAwards.type = 'text/javascript';
-			scriptAwards.src = 'http://github.com/sgplus-alternative/release/raw/master/awards.js';
+			scriptAwards.src = 'http://github.com/tr4656/release/raw/master/awards.js';
 			document.head.appendChild(scriptAwards);
 		}
 	}
