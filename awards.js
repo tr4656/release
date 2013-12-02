@@ -1923,5 +1923,14 @@ postMessage({awards:{
 	},
 	"korrd":{
 		"TriviaKnight":true
+	},
+	"jon88":{
+		"TriviaKnight":true
+	},
+	"ledfordb1":{
+		"TriviaKnight":true
+	},
+	"concii":{
+		"TriviaKnight":true
 	}
 }},'*')
